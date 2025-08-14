@@ -8,6 +8,6 @@ public class Singletone {
     }
 
     public void displayMessage() {
-        System.out.println("Singletone Class Instance Created!");
+        System.out.println("Singletone Class Instance Created");
     }
 }
