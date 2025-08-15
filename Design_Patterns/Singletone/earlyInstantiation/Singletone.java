@@ -1,4 +1,4 @@
-package Early_Instantiation;
+package earlyInstantiation;
 public class Singletone {
     static Singletone instance = new Singletone();
     private Singletone(){}

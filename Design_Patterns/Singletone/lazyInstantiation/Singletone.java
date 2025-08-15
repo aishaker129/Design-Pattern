@@ -1,9 +1,11 @@
-package Lazy_Instantiation;
+package lazyInstantiation;
 
 public class Singletone {
     static Singletone instance;
 
-    private Singletone() {}
+    private Singletone() {
+        System.out.println("Singletone Constructor Called!");
+    }
 
     public static Singletone getInstance() {
         if (instance == null) {

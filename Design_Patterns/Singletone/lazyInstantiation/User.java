@@ -1,17 +1,18 @@
-package Early_Instantiation;
-public class user {
+package lazyInstantiation;
 
+public class User {
     public static void main(String[] args) {
-        Singletone singletonInstance = Singletone.getInstance();
-        singletonInstance.displayMessage();
-
+        Singletone singletone = Singletone.getInstance();
+        singletone.displayMessage();
+        
+        // Trying to get another instance
         Singletone anotherInstance = Singletone.getInstance();
-        anotherInstance.displayMessage();
-
-        if(singletonInstance == anotherInstance) {
+        if (singletone == anotherInstance) {
             System.out.println("Both instances are the same.");
         } else {
             System.out.println("Instances are different.");
         }
+
+        
     }
 }
