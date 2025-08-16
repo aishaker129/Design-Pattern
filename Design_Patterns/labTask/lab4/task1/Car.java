@@ -1,0 +1,4 @@
+
+interface Car {
+    void assable();
+}
