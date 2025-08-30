@@ -1,5 +1,5 @@
 public class CarFactory {
-    public Car setCar(String carType) {
+    public Car getCar(String carType) {
         if (carType == null) {
             return null;
         }
