@@ -1,0 +1,4 @@
+3.Imagine a media application that needs to process different types of playlists stored in various formats, such as arrays (for recently played songs), lists (for favorite songs), and trees (for categorized albums).
+The media application expects to access songs sequentially through a specific interface, but each playlist format uses a completely different internal structure.
+An iterator can bridge the gap between the media application and the diverse playlist formats by providing a consistent way to traverse through each collection, enabling seamless access to the songs without modifying the media application or the playlist structures.
+Can you implement this scenario using the Iterator Pattern?
